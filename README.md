@@ -45,3 +45,7 @@ PCB效果图。使用立创EDA绘制的。
    8. 排针  若干
 5. 一点说明：按照我开源的PCB文件复制成品的话，各元件插在PCB板正面，Arduino UNO板通过排针，插在PCB板的背面。如图所示。
    ![](https://i0.hdslb.com/bfs/article/3f7768640c78c61772be6aefec451307481184837.jpg)
+6. 文件说明：
+   1. “codes”文件夹中，CHONGGOUDE.ino为找到的源代码，.theia文件夹里面是啥忘记了。
+   2. “原理图”文件夹中，两个文件分别是原理图导出的PDF和嘉立创EDA文件。
+   3. “PCB文件”文件夹中，`Gerber_TT5_14_PCB_TT5_14_2024-07-31.zip`为导出的Gerber文件；`OBJ_PCB_TT5_14_2024-07-31.zip`为导出的3D模型（我没用过，我估计里面有bug），`PCB_PCB_TT5_14_2024-07-31.json`为导出的嘉立创EDA文件，`PCB_PCB_TT5_14_2024-07-31.pdf`为导出的PDF。
